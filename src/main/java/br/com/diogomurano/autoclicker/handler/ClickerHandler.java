@@ -40,13 +40,6 @@ public class ClickerHandler extends BukkitRunnable {
                     if (!event.isCancelled()) {
                         Damageable d = (Damageable) nearbyEntity;
                         d.damage(event.getDamage(), player);
-
-//                        EntityPlayer player = ((CraftPlayer) bukkitEntity).getHandle();
-//
-//                        PlayerConnection connection = player.playerConnection;
-//                        PacketPlayOutAnimation armSwing = new PacketPlayOutAnimation(player, 0); // '0' is the id for arm swing
-//                        connection.sendPacket(armSwing); // required for their client to see it too
-//                        connection.a(new PacketPlayInArmAnimation(EnumHand.MAIN_HAND));
                     }
                     break;
                 }

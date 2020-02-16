@@ -1,0 +1,9 @@
+name: DMAutoClicker
+author: DiogoMurano
+version: 1.0.0
+main: br.com.diogomurano.autoclicker.Main
+commands:
+  autoclick:
+    aliases:
+      - 'ac'
+    description: '/autoclick to enable or disable'

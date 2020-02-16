@@ -1,0 +1,11 @@
+br\com\diogomurano\autoclicker\settings\Settings.class
+br\com\diogomurano\autoclicker\api\AutoClickerPlayerEvent.class
+br\com\diogomurano\autoclicker\commands\AutoClickCommand.class
+br\com\diogomurano\autoclicker\models\ClickerPlayer.class
+br\com\diogomurano\autoclicker\listener\AutoClickListener.class
+br\com\diogomurano\autoclicker\services\ClickerPlayerServiceImpl.class
+br\com\diogomurano\autoclicker\handler\ClickerHandler.class
+br\com\diogomurano\autoclicker\models\ClickerPlayer$ClickerPlayerBuilder.class
+br\com\diogomurano\autoclicker\Main.class
+br\com\diogomurano\autoclicker\services\ClickerPlayerService.class
+br\com\diogomurano\autoclicker\Services.class

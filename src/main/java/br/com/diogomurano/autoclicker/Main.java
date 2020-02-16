@@ -28,7 +28,8 @@ public class Main extends JavaPlugin {
 
         new Settings(this).loadConfig();
 
-        new ClickerHandler().runTaskTimer(this, 1L, 3L);
+        final int delay = getConfig().getInt("Autoclick.Delay");
+        new ClickerHandler().runTaskTimer(this, 1L, delay == 0 ? 1 : delay);
 
         getCommand("autoclick").setExecutor(new AutoClickCommand());
         getServer().getPluginManager().registerEvents(new AutoClickListener(), this);
